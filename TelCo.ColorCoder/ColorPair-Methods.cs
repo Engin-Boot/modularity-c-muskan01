@@ -62,8 +62,7 @@ namespace TelCo.ColorCoder
                     break;
                 }
             }
-         }
-      }
+    
             // If colors can not be found throw an exception
             if (majorIndex == -1 || minorIndex == -1)
             {
@@ -75,3 +74,6 @@ namespace TelCo.ColorCoder
             // (Note: +1 in compute is because pair number is 1 based, not zero)
             return (majorIndex * colorMapMinor.Length) + (minorIndex + 1);
         }
+  }
+  
+}
