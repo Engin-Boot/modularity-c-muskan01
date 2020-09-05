@@ -6,7 +6,7 @@ namespace TelCo.ColorCoder
 { 
    partial class Program
     { 
-     public static void ToString()
+     public static void RefManual()
      {      int PairNumber = 0;
             string Manual = "";
             string PairNumberInString = "";
